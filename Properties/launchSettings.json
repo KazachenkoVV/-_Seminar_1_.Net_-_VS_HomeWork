@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HomeWork_1": {
+      "commandName": "Project",
+      "commandLineArgs": "10 + 20"
+    }
+  }
+}
