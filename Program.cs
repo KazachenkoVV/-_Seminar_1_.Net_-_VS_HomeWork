@@ -39,10 +39,11 @@ namespace HomeWork_1
                     Console.WriteLine($"Ошибка: второй аргумент - \"{args[2]}\" должен быть числом!");
                     Environment.Exit(0);
                 }
+
                 try
                 {
                     double result = (ArithmeticOperation(argument_1, operationSign, argument_2));
-                    Console.WriteLine(result);
+                    Console.WriteLine($"{argument_1} {operationSign} {argument_2} = {result}");
                 }
                 catch (DivideByZeroException ex)
                 {
